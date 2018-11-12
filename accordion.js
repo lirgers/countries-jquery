@@ -87,10 +87,10 @@ const getSortFunc = function() {
     };
 }
 
-const drawCountries = function($container, countries) {
+const drawAccordion = function($container, items) {
     const sort = getSortFunc();
     $container.append(createSortRow(sort));
-    countries.forEach(function(item) {
+    items.forEach(function(item) {
         $container.append(createAccordionItem(item.title, item.text));
     });
     sort();

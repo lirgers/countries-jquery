@@ -15,7 +15,7 @@ const main = function() {
             "text": "Germany, officially the Federal Republic of Germany (German: Bundesrepublik Deutschland), is a federal parliamentary republic in western-central Europe."
         }
     ];
-    drawCountries($('body'), countries);
+    drawAccordion($('body'), countries);
 };
 
 $(document).ready(main);
