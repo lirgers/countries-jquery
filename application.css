@@ -1,0 +1,60 @@
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.accordion, .delButton, .sortButton {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.accordion {
+    flex: 10;
+    text-align: left;
+    background-color: #eee;
+}
+
+.delButton {
+    flex: 1;
+    text-align: center;
+    background-color: #DC330F;
+    color: white;
+}
+
+.sortButton {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    background-color: #eee;
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+}
+
+.active, .accordion:hover, .sortButton:hover {
+    background-color: #ccc;
+}
+
+.delButton:hover {
+    background-color: #BC3316;
+}
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.countryInfoP {
+    padding: 0 18px;
+}
+
+.item {
+    margin: 10px;
+}
